@@ -26,7 +26,7 @@ const manifest: Partial<VitePWAOptions> = {
         src: '/apple-touch-icon.png',
         sizes: '144x144',
         type: 'image/png',
-        purpose: 'apple touch icon',
+        purpose: 'any',
       },
       {
         src: '/maskable_icon.png',
