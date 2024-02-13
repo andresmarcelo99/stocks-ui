@@ -48,9 +48,34 @@
   background-color: #6425fe !important;
   border-color: #6425fe !important;
 }
+.stocks-line-container {
+  background-color: #ffffff;
+  border-radius: 8px;
+  padding-top: 1rem;
+  max-width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.stock-line-plot {
+  /* background-color: #ffffff; */
+  border-radius: 8px;
+  margin-right: 3rem;
+  margin-left: 3rem;
+}
 
 @media only screen and (max-width: 800px) {
   .dashboard {
     flex-direction: column;
   }
+
+  .recharts-wrapper {
+    width: 100% !important;
+  }
+}
+
+.recharts-tooltip-wrapper
+  recharts-tooltip-wrapper-left
+  recharts-tooltip-wrapper-bottom {
+  display: none;
 }

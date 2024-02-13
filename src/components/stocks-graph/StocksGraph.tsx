@@ -35,7 +35,7 @@ export default function StocksGraph({ stockName }: Props) {
   }
 
   return (
-    <div className="container-fluid align-items-center stocks-graph mx-3 pt-4 pe-4">
+    <div className="container-fluid align-items-center stocks-graph mx-lg-3 pt-4 ">
       <h4 className="mt-3">Displaying {stockName} Data</h4>
       <ResponsiveContainer width="100%" height={400}>
         <LineChart data={graphData}>
