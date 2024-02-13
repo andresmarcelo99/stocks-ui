@@ -10,6 +10,8 @@ Stocks UI is a React application that displays multi-line charts for different s
 
 ![alt text](./public/image.png)
 
+You can see it live here: [link](https://stocks-ui.netlify.app/)
+
 ## Installation
 
 1. Clone the repository:
