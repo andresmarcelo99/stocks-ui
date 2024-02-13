@@ -8,6 +8,8 @@ Stocks UI is a React application that displays multi-line charts for different s
 - Each line represents the historical prices of a stock.
 - Live representation of most popular stocks.
 
+![alt text](./public/image.png)
+
 ## Installation
 
 1. Clone the repository:
