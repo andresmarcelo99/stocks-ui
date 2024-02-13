@@ -48,3 +48,9 @@
   background-color: #6425fe !important;
   border-color: #6425fe !important;
 }
+
+@media only screen and (max-width: 800px) {
+  .dashboard {
+    flex-direction: column;
+  }
+}
