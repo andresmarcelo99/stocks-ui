@@ -1,30 +1,39 @@
-# React + TypeScript + Vite
+# Live Stocks UI
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Stocks UI is a React application that displays multi-line charts for different stocks using the Finnhub Stock Api.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Displays historical price data for multiple stocks in a multi-line chart.
+- Each line represents the historical prices of a stock.
+- Live representation of most popular stocks.
 
-## Expanding the ESLint configuration
+## Installation
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/andresmarcelo99/stocks-ui.git
+   ```
+2. Navigate to project directory:
+   ```bash
+   cd stocks-ui
+   ```
 
-- Configure the top-level `parserOptions` property like this:
+## Usage
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+1. Install Dependencies
+   ```bash
+   npm install
+   ```
+2. Run the development server:
+   ```bash
+   npm run dev
+   ```
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+## Contributing
+
+Contributions are welcome! Please create a pull request with your changes.
+
+## License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
